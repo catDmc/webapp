@@ -1,0 +1,46 @@
+{
+  "name": "vartar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --inline --history-api-fallback --open&& webpack --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mobile": "^2.0.3",
+    "babel-plugin-import": "^1.6.1",
+    "babel-polyfill": "^6.26.0",
+    "exif-js": "^2.3.0",
+    "fetch-polyfill2": "^0.0.3",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.2.1",
+    "qrcode.react": "^0.7.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^2.8.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "less": "^3.0.0-alpha.3",
+    "less-loader": "^4.0.5",
+    "source-map": "^0.6.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
